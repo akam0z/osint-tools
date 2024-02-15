@@ -1,2 +1,8 @@
 # osint-tools
-OX_osint
+Le logiciel 0X_OSINT est une solution avancée conçue pour faciliter la collecte d'informations en source ouverte (Open Source Intelligence - OSINT) sur des individus et des entreprises à travers diverses plateformes en ligne. En exploitant la puissance des requêtes automatisées et de l'analyse de données, 0X_OSINT permet aux utilisateurs de rassembler efficacement des informations publiques depuis des sources variées comme GitHub, Twitter, Speedrun.com, et bien d'autres.
+
+L'architecture de 0X_OSINT est bâtie autour de plusieurs fonctions clés, chacune dédiée à une source spécifique ou à un type d'analyse. Par exemple, il intègre des fonctionnalités pour vérifier l'existence de profils sur des réseaux sociaux et des plateformes de développeurs, extraire des informations pertinentes de ces profils, analyser des numéros de téléphone pour en déduire le pays, l'opérateur, et le fuseau horaire, et vérifier la disponibilité de noms de domaine pour identifier des sites web d'entreprises.
+
+Développé en Python, 0X_OSINT utilise des bibliothèques robustes telles que requests pour les requêtes HTTP, BeautifulSoup pour l'analyse du contenu HTML, et phonenumbers pour le traitement des numéros de téléphone. Le logiciel est conçu pour être modulaire, permettant une extension facile avec de nouvelles sources ou fonctionnalités selon les besoins des utilisateurs.
+
+En somme, 0X_OSINT est un outil essentiel pour la sécurité, les chercheurs, et toute personne intéressée par l'OSINT. Il fournit une méthode structurée et efficace pour exploiter les informations publiques disponibles en ligne
